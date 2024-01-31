@@ -1,0 +1,13 @@
+$mediaMaxWidth: 1260px;
+$mediaBp1Width: 960px;
+$mediaMinWidth: 480px;
+
+@media (min-width: $mediaMaxWidth) {
+  .container-fluid{
+    padding: 0 100px;
+  }
+
+  .home .sub-title{
+    padding: 24px 85px 24px 0px;
+  }
+}

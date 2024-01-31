@@ -1,0 +1,336 @@
+body {
+    background-color: $bg-dark;
+    overflow: hidden;
+}
+
+.bg-dark {
+    background-color: $bg-dark !important;
+    color: $dark-text-primary !important;
+}
+
+.bg-light {
+    background-color: $bg-light !important;
+    color: $light-text-primary !important;
+}
+
+// NAVBAR STYLE STARTS
+.nav {
+    background: transparent !important;
+    color: inherit;
+    border-bottom: 1px solid #FFFFFF33;
+
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+.navbar-nav {
+
+    .nav-item .nav-link {
+        color: $dark-text-secondary !important;
+    }
+
+    a.nav-link.active-link{
+        color: $primary-clr !important;
+    }
+
+}
+
+ul.navbar-nav.dark-theme {
+    .nav-item {
+
+        a.nav-link {
+            color: $light-text-fourth !important;
+        }
+    }
+    a.nav-link.active-link{
+        color: $primary-clr !important;
+    }
+}
+
+// NAVBAR STYLE END
+
+// DARK THEME STYLE GUIDE
+// HOME STARTS
+.home {
+    padding-top: 44px;
+
+    .heading-text {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 78px;
+        color: $dark-text-primary;
+
+        span {
+            color: $primary-clr;
+        }
+    }
+
+    .sub-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: $dark-text-primary;
+    }
+
+    .capital-text {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-text-secondary;
+    }
+
+    .italic-text {
+        font-size: 18px;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 25px;
+        color: $dark-text-fourth;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        color: $dark-text-primary;
+    }
+
+    .card {
+        background: $card-bg-clr;
+        border: 1px solid #DB9A1E40;
+        box-shadow: 2px 2px 12px 0px #0000000F;
+        padding: 24px;
+        margin: 24px;
+
+        .card-image {
+            img {
+                width: 40px;
+                height: 40px;
+                margin-right: 16px;
+            }
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            margin: 0;
+            color: $primary-clr;
+
+        }
+
+        .card-text {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            padding: 24px 0;
+            color: $dark-text-secondary;
+        }
+    }
+}
+
+// DARK THEME STYLE GUIDE
+
+// LIGHT THEME STYLE GUIDE
+section.home.dark-theme {
+    .heading-text {
+        color: $light-text-primary;
+    }
+
+    .sub-title {
+        color: $light-text-secondary;
+    }
+
+    .capital-text {
+        color: $light-text-secondary;
+    }
+
+    .italic-text {
+        color: $light-text-fourth;
+    }
+
+    .sub-heading {
+        color: $light-text-primary;
+    }
+
+    .card {
+        background: #fff;
+        border: 1px solid #0000000F;
+        box-shadow: 2px 2px 12px 0px #0000000F;
+
+        .card-title {
+            color: $light-text-secondary;
+        }
+
+        .card-text {
+            color: $light-text-fourth;
+        }
+    }
+}
+
+// LIGHT THEME STYLE GUIDE
+// HOME ENDS 
+
+// ABOUT STARTS
+// DARK THEME STYLE GUIDE
+.about {
+    padding-top: 44px;
+
+    .profile-img {
+        width: 171px;
+        height: 201px;
+        margin-right: 28px;
+    }
+
+    .personal-details {
+        .name {
+            font-size: 32px;
+            font-weight: 700;
+            color: $dark-text-primary;
+            padding: 16px 0;
+        }
+
+        .position {
+            font-family: Vollkorn;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 500;
+            color: $dark-text-fourth;
+        }
+
+        .moto {
+            font-size: 16px;
+            font-weight: 500;
+            color: $dark-text-third;
+            padding: 16px 0;
+        }
+    }
+
+    .links {
+        padding-top: 55px;
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            font-size: 18px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            color: $dark-text-fourth;
+            cursor: pointer;
+            margin: 16px 0;
+            text-decoration: none;
+        }
+
+        span.line {
+            display: flex;
+            align-items: center;
+            border: 1px solid;
+            width: 44px;
+            margin-right: 24px;
+            color: $dark-text-fourth;
+        }
+
+        a.active {
+            font-size: 20px;
+            font-weight: 700;
+            color: $dark-text-primary;
+
+            span.line {
+                display: flex;
+                align-items: center;
+                border: 1px solid;
+                width: 72px;
+                margin-right: 24px;
+                color: $dark-text-primary;
+            }
+        }
+
+
+    }
+
+    .about-me {
+
+        .bold-text {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: normal;
+            color: $dark-text-third;
+            padding: 24px;
+        }
+
+        .inner-text {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: normal;
+            color: $dark-text-third;
+            padding: 24px;
+        }
+    }
+
+    .experience {
+        height: 50%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+        .details {
+            padding-bottom: 5%;
+
+            .company {
+                font-size: 20px;
+                font-weight: 600;
+                color: $dark-text-primary;
+            }
+
+            .position {
+                font-family: Vollkorn;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 400;
+                color: $dark-text-secondary;
+            }
+
+            .duration {
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                color: $dark-text-fourth;
+            }
+
+        }
+
+        .inner-text ul li {
+            font-size: 16px;
+            font-weight: 400;
+            color: $dark-text-third;
+
+        }
+
+        .outer-layer-tech {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .tech-skills {
+            border-radius: 40px;
+            border: 1px solid $primary-clr;
+            padding: 6px 20px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 500;
+            color: $primary-clr;
+            margin: 0.4em;
+        }
+    }
+}
+
+
+// DARK THEME STYLE GUIDE
+// ABOUT ENDS
+
